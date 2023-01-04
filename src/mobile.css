@@ -28,14 +28,14 @@ body {
     display: flex;
     width: 340px;
     height: 340px;
-    margin: 10px 0 0 48px;
+    margin: 10px 0 20px 48px;
 }
 
 img {
     position: absolute;
-    width: 60%;
+    width: 65%;
     height: 38%;
-    margin: 50px 0 0 86px;
+    margin: 50px 0 0 75px;
     border-radius: 10px;
 }
 
@@ -43,7 +43,8 @@ img {
     position: absolute;
     display: flex;
     top: 300px;
-    left: 175px;
+    left: 172px;
+    cursor: pointer;
 }
 
 .prev {
@@ -55,6 +56,11 @@ img {
     border-bottom-left-radius: 20px;
 }
 
+.prev:hover {
+    background-color: hsl(240, 39%, 73%);
+    transition: 0.3s ease-in-out;
+}
+
 .next {
     background-color: hsl(240, 25%, 92%);
     width: 40px;
@@ -64,18 +70,22 @@ img {
     border-bottom-right-radius: 20px;
 }
 
+.next:hover {
+    background-color: hsl(240, 39%, 73%);
+    transition: 0.3s ease-in-out;
+}
+
 .quote {
     width: 60px;
     height: 60px;
-    margin-left: 180px;
+    margin-left: 182px;
 }
 
 .bottom {
     position: absolute;
     width: 300px;
     height: 300px;
-    top: 522px;
-    
+    top: 522px; 
 }
 
 .info {
@@ -83,8 +93,7 @@ img {
     width: 320px;
     right: 480px;
     text-align: center;
-    margin-top: 60px;
-    
+    margin-top: 50px;
 }
 
 .info .text {
@@ -103,4 +112,5 @@ img {
 .info .detail-info {
     font-weight: lighter;
     text-align: center;
+    color: hsl(240, 18%, 77%);
 }
