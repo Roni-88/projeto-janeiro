@@ -15,7 +15,11 @@ body {
     background-color: hsl(240, 45%, 91%);
 }
 
-.general {
+.cards {
+    display: flex;   
+}
+
+.desing {
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
@@ -93,7 +97,7 @@ img {
     width: 320px;
     right: 480px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 400px;
 }
 
 .info .text {
@@ -113,4 +117,12 @@ img {
     font-weight: lighter;
     text-align: center;
     color: hsl(240, 18%, 77%);
+}
+
+.cards {
+    display: none;
+}
+
+.selected {
+    display: flex;
 }

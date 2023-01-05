@@ -14,10 +14,10 @@ function showCard (indexCard) {
 
 previous.addEventListener ('click', function () {
     if (showingCard === 1) {
-        previous.classList.add (smooth)
+        previous.classList.add (selected)
     }
     if (showingCard === cards.length -1) {
-        nextOne.classList.remove (smooth)
+        nextOne.classList.remove (selected)
     }
     hideCard ()
     showingCard --
@@ -26,10 +26,10 @@ previous.addEventListener ('click', function () {
 
 nextOne.addEventListener ('click', function () {
     if (showingCard === 0) {
-        previous.classList.remove (smooth)
+        previous.classList.remove (selected)
     }
     if (showingCard === cards.length -2) {
-        nextOne.classList.add (smooth)
+        nextOne.classList.add (selected)
     }
     hideCard ()
     showingCard ++
