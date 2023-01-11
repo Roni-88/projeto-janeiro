@@ -19,8 +19,8 @@ body {
     display: flex;   
 }
 
-.desing {
-    display: flex;
+.card {
+    display: none;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     width: 420px;
@@ -117,10 +117,6 @@ img {
     font-weight: lighter;
     text-align: center;
     color: hsl(240, 18%, 77%);
-}
-
-.hide {
-    display: none;
 }
 
 .selected {
