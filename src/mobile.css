@@ -15,10 +15,6 @@ body {
     background-color: hsl(240, 45%, 91%);
 }
 
-.cards {
-    display: flex;   
-}
-
 .card {
     display: none;
     flex-direction: column;
@@ -41,40 +37,45 @@ img {
     height: 38%;
     margin: 50px 0 0 75px;
     border-radius: 10px;
+    bottom: 390px;
 }
 
 .icon {
     position: absolute;
     display: flex;
-    top: 300px;
-    left: 172px;
-    cursor: pointer;
+    top: 410px;
+    left: 593px;
+    z-index: 1;
 }
 
-.prev {
+#voltar {
     background-color: hsl(240, 25%, 92%);
     width: 40px;
     height: 40px;
-    padding: 10px 0 0 12px;
+    padding: 3px 0 0 1px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    cursor: pointer;
+    border: none;
 }
 
-.prev:hover {
+#voltar:hover {
     background-color: hsl(240, 39%, 73%);
     transition: 0.3s ease-in-out;
 }
 
-.next {
+#avancar {
     background-color: hsl(240, 25%, 92%);
     width: 40px;
     height: 40px;
-    padding: 10px 0 0 12px;
+    padding: 3px 3px 0 1px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    cursor: pointer;
+    border: none;
 }
 
-.next:hover {
+#avancar:hover {
     background-color: hsl(240, 39%, 73%);
     transition: 0.3s ease-in-out;
 }
@@ -89,15 +90,16 @@ img {
     position: absolute;
     width: 300px;
     height: 300px;
-    top: 522px; 
+    top: 522px;
+    left: 0px;
 }
 
 .info {
     position: absolute;
     width: 320px;
-    right: 480px;
+    right: 55px;
     text-align: center;
-    margin-top: 400px;
+    top: 400px;
 }
 
 .info .text {
