@@ -15,6 +15,10 @@ body {
     background-color: hsl(240, 45%, 91%);
 }
 
+.cards-list {
+    position: relative;
+}
+
 .card {
     display: none;
     flex-direction: column;
@@ -43,8 +47,8 @@ img {
 .icon {
     position: absolute;
     display: flex;
-    top: 410px;
-    left: 593px;
+    top: 301px;
+    left: 170px;
     z-index: 1;
 }
 
